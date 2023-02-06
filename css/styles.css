@@ -1,0 +1,443 @@
+/* Gerais */
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p,
+li {
+    color: #444;
+    font-size: 14px;
+}
+
+
+/* NavBar */
+
+header,
+.navbar {
+    background-color: rgba(25, 25, 25, 0.7);
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 300px;
+    margin-left: 10px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+#navbar-links a {
+    color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem 0.8rem;
+}
+
+.nav-item.active {
+    border-bottom: 3px solid #fff;
+}
+
+
+/* block */
+
+.block {
+    background-image: url("../img/fundo.png");
+    height: 680px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-block {
+    text-align: center;
+    padding-top: 250px;
+    color: white;
+}
+
+.main-btn {
+    background-color: #ffaa00;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: 0.5s;
+}
+
+.main-btn:hover {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border-color: #ffaa00;
+}
+
+
+/* Sobre */
+
+.main-title {
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 15%;
+    margin-top: 10px;
+    left: 42.5%;
+    border-top: 2px solid #333;
+}
+
+
+/* Responsividade */
+
+.about-title {
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.text-sobre {
+    color: white;
+}
+
+#about-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li {
+    color: white;
+    line-height: 30px;
+}
+
+#about-list i {
+    color: #ffaa00;
+    margin-right: 15px;
+}
+
+
+/* Sobre */
+
+.service-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box i,
+.service-box h4 {
+    transition: 0.5s;
+}
+
+.service-box i {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.service-box h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service-box:hover>i,
+.service-box:hover>h4 {
+    color: #ffaa00;
+}
+
+
+/* Time */
+
+.card-body {
+    text-align: center;
+}
+
+
+/* Como usar */
+
+#apply-area {
+    height: 500px;
+}
+
+#apply-area .container-fluid,
+#apply-area .row {
+    height: 100%;
+}
+
+#apply-area .apply-box {
+    padding: 70px 50px;
+    text-align: center;
+}
+
+#company-video {
+    width: 100%;
+}
+
+#pattern-img h4,
+#pattern-img p {
+    color: #fff;
+}
+
+#pattern-img h4 {
+    margin-top: 8%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#pattern-img p {
+    margin-bottom: 20px;
+}
+
+#apply-btn {
+    display: block;
+    height: auto;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: transparent;
+    border-color: #fff;
+}
+
+#apply-btn:hover {
+    border-color: #ffaa00;
+    background-color: #ffaa00;
+}
+
+
+/* Iniciar */
+
+#call-area {
+    background-color: #ffaa00;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+#call-area .container {
+    padding: 40px 100px;
+}
+
+#call-area .row {
+    display: block;
+    text-align: center;
+}
+
+#call-area p {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 60px;
+    letter-spacing: 2px;
+    display: inline;
+}
+
+#call-area #call-btn {
+    background-color: #fff;
+    color: #ffaa00;
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: 20px;
+    width: auto;
+    letter-spacing: 2px;
+}
+
+
+/* Footer */
+
+#contact-area {
+    text-align: center;
+}
+
+.contact-tile {
+    font-weight: bold;
+    color: #ffaa00;
+}
+
+#msg-box p {
+    font-size: 22px;
+}
+
+#contact-form input[type="text"],
+#contact-form textarea {
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+#contact-form .main-btn {
+    width: 120px;
+    height: 50px;
+}
+
+#contact-form .main-btn:hover {
+    color: #ffaa00;
+}
+
+.form-itens:focus {
+    box-shadow: none;
+    border-color: #ffaa00;
+}
+
+
+/* Copy */
+
+#copy-area {
+    background-color: #f1f1f1;
+}
+
+#copy-area .container {
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-area .container p {
+    margin-bottom: 0;
+}
+
+#copy-area .container a {
+    font-weight: bold;
+    color: #444;
+}
+
+#copy-area .container a:hover {
+    text-decoration: none;
+    color: #ffaa00;
+}
+
+
+.voltar {
+    color: white;
+    background-color: #272c31;
+    font-size: 20px;
+    width: 60px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    margin-right: auto;
+}
+
+.voltar:hover {
+    color: white;
+    background-color: #272c31;
+    border: 2px solid #212529;
+}
+
+.img-termo {
+    width: 300px;
+}
+
+
+/* responsive */
+
+@media (max-width: 768px) {
+
+    /* geral */
+    .container {
+        padding: 20px 0;
+    }
+
+    /* about */
+    #about-area img {
+        margin-top: 100px;
+    }
+
+    /* team */
+    .card-title {
+        font-size: 14px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
+
+    /* apply */
+    #apply-area .apply-box {
+        padding: 50px 25px;
+    }
+
+    /* call */
+    #call-area {
+        margin-top: 30px;
+    }
+
+    #call-area .container {
+        padding: 30px;
+    }
+
+    #call-area p,
+    #call-area #call-btn {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    /* about */
+    .main-title {
+        font-size: 30px;
+    }
+
+    #about-area img {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    /* team */
+    #team-area .col-md-3 {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    /* apply */
+    #apply-area {
+        height: auto;
+    }
+
+    #company-image {
+        display: none;
+    }
+
+    #company-video {
+        display: none;
+    }
+
+    #call-area p,
+    #call-area #call-btn {
+        font-size: 14px;
+        letter-spacing: 0;
+    }
+
+    #call-area p,
+    #call-area #call-btn {
+        margin: 0;
+        width: 50%;
+    }
+
+    /* contact */
+}

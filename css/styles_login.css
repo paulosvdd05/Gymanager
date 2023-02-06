@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-image: url("../img/fundo4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centro {
+margin-top: 2%;
+margin-bottom: auto;
+    }
+
+.card {
+    width: 400px;
+    background-color: #f4f5f7;
+    
+    }
+
+.card-img-top {
+    max-width: 80%;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.voltar {
+    color: #ffaa00;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.voltar:hover {
+    color: #ffaa00;
+}
+
+.form-itens:focus {
+    box-shadow: none;
+    border-color: #ffaa00;
+}
+
+.botao {
+    color: white;
+    background-color: #ffaa00;
+    border-color: #ffaa00;
+    font-size: medium;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: 0.5s;
+}
+
+.botao:hover {
+    color: #3e484a;
+    background-color: transparent;
+    border-color: #ffaa00;
+}
+
+.botao:active {
+    box-shadow: 0 0 1em transparent;
+}
+
+input[name="nivel"] {
+    accent-color: #ffc44f;
+}
+
+.eye {
+    position: absolute;
+    margin-top: 10px;
+}
+
+#hide1 {
+    display: none;
+    color: #3e484abb;
+}
+
+#hide2 {
+    display: flex;
+    color: #3e484ab7;
+}
+
+#hide3 {
+    display: none;
+    color: #3e484abb;
+}
+
+#hide4 {
+    display: flex;
+    color: #3e484ab7;
+}
+
+.mostrar {
+    margin-top: 5px;
+    margin-left: 30px;
+    color: #3e484ab7;
+}
+
+.titulo {
+    text-align: center;
+    color: #ffaa00;
+}
+
+.outro {
+    color: #ffaa00;
+}
+
+.outro:hover {
+    color: #ffaa00;
+}
+
+.termos {
+    background-color: #ececec;
+    border-radius: 0 0 3px 3px;
+}
+
+input[type="file"] {
+    display: none;
+}
+label {
+    cursor: pointer;
+}
+
+.text-cad{
+    color: #6c757d;
+}
+
+input[type="radio"]:checked + label {
+    color: black;
+}
+
