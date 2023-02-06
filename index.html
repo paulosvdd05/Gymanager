@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYMANAGER</title>
+    <!-- Fonte -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/e08dad89c4.js" crossorigin="anonymous"></script>
+    <!-- Progress Bar -->
+    <script src="js/progressbar.min.js"></script>
+    <!-- Parallax -->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+    <!-- Icon -->
+    <link rel="shortcut icon" type="imagex/png" href="./img/halter.ico">
+</head>
+
+<body>
+    <!-- NavBar -->
+    <header>
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+                <a href="index.html" class="navbar-brand">
+                    <img id="logo" src="img/logo.png" alt="gymanager" class="img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" id="home-menu" href="#">Início</a>
+                        <a class="nav-item nav-link" id="services-menu" href="#">Sobre</a>
+                        <a class="nav-item nav-link" id="about-menu" href="#">Acessibilidade</a>
+                        <a class="nav-item nav-link" id="team-menu" href="#">Equipe</a>
+                        <a class="nav-item nav-link" id="apply-menu" href="#">Começar</a>
+                        <a class="nav-item nav-link" id="contact-menu" href="#">Contato</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="block container-fluid">
+            <!-- Block -->
+            <div id="mainBlock">
+                <div class="text-block">
+                    <h1>
+                        <h1>O melhor lugar para gerenciar seus alunos</h1>
+                    </h1>
+                    <h4>Facilidade na organização e gestão de alunos</h4><br>
+                    <a href="login.php" class="main-btn">começar agora!</a>
+                </div>
+            </div>
+        </div>
+        <!-- Sobre -->
+        <div id="services-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="main-title">Sobre o Gymanager</h3>
+                    </div>
+                    <div class="col-md-4 service-box">
+                        <i class="fas fa-chalkboard-user"></i>
+                        <h4>Áreas de personal e aluno</h4>
+                        <p>Sistema que contém ambientes de acesso tanto para o professor quanto para o aluno.
+                        </p>
+                    </div>
+                    <div class="col-md-4 service-box">
+                        <i class="fas fa-code-compare"></i>
+                        <h4>Troca de informações</h4>
+                        <p>Melhora na comunicação para otimização na entrega e recebimento de serviços.
+                        </p>
+                    </div>
+                    <div class="col-md-4 service-box">
+                        <i class="fas fa-dumbbell"></i>
+                        <h4>Organização nos treinos</h4>
+                        <p>Ferramentas que auxiliam no entendimento e organização da planilha de treinos.
+                        </p>
+                    </div>
+                    <div class="col-md-6 service-box">
+                        <i class="fas fa-address-card"></i>
+                        <h4>Controle dos seus alunos</h4>
+                        <p>Base de dados que permite uma ótima organização de seus alunos.
+                        </p>
+                    </div>
+                    <div class="col-md-6 service-box">
+                        <i class="fas fa-paintbrush"></i>
+                        <h4>Design prático e objetivo</h4>
+                        <p>Layout intuitivo, que garante facilidade na utilização da plataforma.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Responsividade -->
+        <div id="about-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6" id="company-image">
+                        <img class="img-fluid" style="height: 400px;" src="img/responsivel.png" alt="pc-celular">
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="about-title">Computador ou celular</h3>
+                        <p class="text-sobre">No computador ou na tela de seu celular, nossas soluções aumentarão sua produtividade
+                            como personal trainer.</p>
+                        <p class="text-sobre">O Gymanager é um app completo, interativo e fácil de usar, além de facilitar
+                            a comunicação do personal com o aluno a qualquer distância.</p>
+                        <p class="text-sobre">Maior controle de seus alunos, tudo na palma da mão.</p>
+                        <p class="text-sobre">Veja nossos diferencias:</p>
+                        <ul id="about-list">
+                            <li><i class="fas fa-check"></i> Prescrição de treinos</li>
+                            <li><i class="fas fa-check"></i> Interatividade no serviço</li>
+                            <li><i class="fas fa-check"></i> Execução rápida da funções</li>
+                            <li><i class="fas fa-check"></i> Acessível a qualquer momento</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Equipe -->
+        <div id="team-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="main-title">Nossa equipe</h3>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                                <img src="img/profile1.png" class="card-img-top" alt="Imagem de Perfil 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Gianlucca Paschetta</h5> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                                <img src="img/profile2.png" class="card-img-top" alt="Imagem de Perfil 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Paulo Sergio Dias</h5>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                                <img src="img/profile3.png" class="card-img-top" alt="Imagem de Perfil 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Rodrigo Antunes</h5>    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                                <img src="img/profile4.png" class="card-img-top" alt="Imagem de Perfil 4">
+                            <div class="card-body">
+                                <h5 class="card-title">Felipe Tavares</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Como usar -->
+        <div id="apply-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 align-self-center">
+                        <video onloadstart="this.volume=0.3" controls id="company-video">
+                            <source src="img/video.mp4" type="video/mp4">
+
+                        </video>
+                    </div>
+                    <div class="col-md-6 apply-box" id="pattern-img">
+                        <h4>Bem vindo ao GYMANAGER!</h4>
+                        <br>
+                        <p>Esse é o GYMANAGER, utilize o sistema de forma fácil e simples, em apenas alguns minutos você já pode começar.
+                        </p>
+                        <p>Confira mais sobre o sistema e comece sua experiência conosco.</p>
+                        <p>Clique no botão abaixo e confira nosso canal no YouTube.</p>
+                        <br>
+                        <a href="https://youtu.be/02Lsn-UPzVA" class="main-btn" id="apply-btn">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Iniciar -->
+        <div id="call-area">
+            <div class="container">
+                <div class="row">
+                    <p>Deseja iniciar o Gymanager?</p>
+                    <a href="cadastro.php" class="main-btn" id="call-btn">Iniciar</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <!-- Rodapé -->
+    <footer>
+        <div id="contact-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="main-title">Entre em contato conosco</h3>
+                    </div>
+
+                    <div class="col-md-6" id="msg-box">
+                        <p>Ou nos deixe uma mensagem:</p>
+                    </div>
+                    <div class="col-md-6" id="contact-form">
+                        <form action="https://formsubmit.co/gymanager22@gmail.com" method="POST">
+                            <div class="form-group">
+                                <input type="email" class="form-control form-itens" placeholder="Seu e-mail" name="E-mail" required>
+                            </div>
+                            <div class="form-group">
+                            <input type="text" class="form-control form-itens" placeholder="Assunto" name="Assunto" required>
+                            </div>
+                            <div class="form-group">
+                            <textarea class="form-control form-itens" rows="3" placeholder="Sua mensagem..." name="Mensagem" required></textarea>
+                            </div>
+                            <input type="submit" class="main-btn" value="Enviar">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_next" value="http://localhost/GYMANAGER/obrigado.html">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="copy-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Desenvolvido pela equipe GYMANAGER - 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
